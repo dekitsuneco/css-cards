@@ -1,0 +1,26 @@
+{
+  "cards": [
+    {
+      "id": 0,
+      "organization": "Rhodes Island",
+      "leader": "Kal'tsit",
+      "description": "Pharmaceutical Company",
+      "logo": "./src/img/Rhodes_Island.webp",
+      "tags": [
+        "Terra",
+        "Kazdel"
+      ]
+    },
+    {
+      "id": 1,
+      "organization": "Reunion",
+      "leader": "Talulah",
+      "description": "Military Organization",
+      "logo": "./src/img/Reunion.webp",
+      "tags": [
+        "Terra",
+        "Ursus"
+      ]
+    }
+  ]
+}
