@@ -2,7 +2,7 @@
   "cards": [
     {
       "id": 0,
-      "date": "April 2nd 2022",
+      "date": "April 1st 2022",
       "organization":"Rhodes Island",
       "logo": "./src/img/Rhodes_Island.webp",
       "leader": {
@@ -12,7 +12,96 @@
       "tags": [
         "Terra",
         "Kazdel",
-        "Pharma"
+        "Company"
+      ]
+    },
+    {
+      "id": 1,
+      "date": "April 2nd 2022",
+      "organization":"Reunion",
+      "logo": "./src/img/Reunion.webp",
+      "leader": {
+        "prefix": "Mistress",
+        "name": "Talulah"
+      },
+      "tags": [
+        "Terra",
+        "Kazdel",
+        "Ursus"
+      ]
+    },
+    {
+      "id": 3,
+      "date": "April 3rd 2022",
+      "organization":"Babel",
+      "logo": "./src/img/Babel.webp",
+      "leader": {
+        "prefix": "Empress",
+        "name": "Theresa"
+      },
+      "tags": [
+        "Terra",
+        "Kazdel"
+      ]
+    },
+    {
+      "id": 3,
+      "date": "April 4th 2022",
+      "organization":"Blacksteel",
+      "logo": "./src/img/Blacksteel.webp",
+      "leader": {
+        "prefix": "CEO",
+        "name": "Unknown"
+      },
+      "tags": [
+        "Terra",
+        "Columbia",
+        "PMC"
+      ]
+    },
+    {
+      "id": 4,
+      "date": "April 5th 2022",
+      "organization":"Lungmen Guard Department",
+      "logo": "./src/img/Lungmen_Guard_Department.webp",
+      "leader": {
+        "prefix": "Superintendent",
+        "name": "Ch'en Hui-chieh"
+      },
+      "tags": [
+        "Terra",
+        "Lungmen",
+        "Gendarmerie"
+      ]
+    },
+    {
+      "id": 5,
+      "date": "April 5th 2022",
+      "organization":"Rhine Lab",
+      "logo": "./src/img/Rhine_Lab.webp",
+      "leader": {
+        "prefix": "Doctor",
+        "name": "Unknown"
+      },
+      "tags": [
+        "Terra",
+        "Columbia",
+        "SRC"
+      ]
+    },
+    {
+      "id": 6,
+      "date": "April 6th 2022",
+      "organization":"Karlan Trade Co., Ltd.",
+      "logo": "./src/img/Karlan_Commercial.webp",
+      "leader": {
+        "prefix": "CEO",
+        "name": "Unknown"
+      },
+      "tags": [
+        "Terra",
+        "Kjerag",
+        "Trade Company"
       ]
     }
   ]
