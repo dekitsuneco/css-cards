@@ -22,9 +22,22 @@ body {
   font-family: 'DM Mono', monospace;
 }
 
-.wrapper {}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+    
+  min-height: 100vh;
+  min-width: 100vw;
+}
 
-.main {}
+.main {
+  flex: 1 1 auto;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
 
 .card-list {
   display: flex;
@@ -185,10 +198,10 @@ body {
 .card__tags a {
   position: relative;
 
+  margin-right: .3rem;
   padding: .2rem .85rem .25rem;
 
   color: #7a7a8c;
-  font-size: .5rem;
   font-size: .66rem;
   font-weight: 700;
   font-style: normal;
@@ -196,6 +209,10 @@ body {
 
   border: 3px solid #28242f;
   border-radius: 2rem;
+}
+
+.card__tags a:last-child {
+  margin-right: 0;
 }
 
 .card__tags a:hover {
