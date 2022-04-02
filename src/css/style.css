@@ -42,7 +42,7 @@ body {
 .card-list {
   display: flex;
 
-  padding: 3rem;
+  padding: 2.5rem;
 
   overflow-x: scroll;
 }
@@ -137,7 +137,6 @@ body {
   position: relative;
 
   margin: 3rem 0 0;
-
 }
 
 .organization__logo {
@@ -188,6 +187,10 @@ body {
 }
 
 .card__tags {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: .3rem;
+
   margin: 1rem 0 2rem;
   margin-bottom: 0;
   padding: .5rem 0 1rem;
@@ -196,10 +199,11 @@ body {
 }
 
 .card__tags a {
-  position: relative;
+  display: block;
 
-  margin-right: .3rem;
-  padding: .2rem .85rem .25rem;
+  position: relative;
+  
+  padding: .2rem .3rem .25rem;
 
   color: #7a7a8c;
   font-size: .66rem;
@@ -207,8 +211,8 @@ body {
   font-style: normal;
   text-transform: uppercase;
 
-  border: 3px solid #28242f;
-  border-radius: 2rem;
+  border: 2.5px solid #28242f;
+  border-radius: 1.5rem;
 }
 
 .card__tags a:last-child {
